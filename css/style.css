@@ -1,0 +1,177 @@
+html {
+   position: relative;
+}
+
+body {
+   margin-bottom: 100px;
+   margin-top: 30px;
+}
+
+.jumbotron {
+   height: 400px;
+   background-image: url(../img/header-bg.jpg);
+   background-size: cover;
+   background-position: 0px 0px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   border-bottom: 3px solid #fff;
+   overflow: hidden;
+}
+
+.jumbotron .div-img {
+   width: 100%;
+   height: 200px;
+   margin: auto;
+   padding-top: 50px;
+}
+
+.jumbotron img {
+   width: 200px;
+   height: 200px;
+   border: 1px solid #fff;
+   box-shadow: 1px 1px 13px rgba(0, 0, 0, .7);
+}
+
+.jumbotron h1 {
+   padding-top: 50px;
+   color: #fff;
+   text-shadow: 1px 1px 22px rgba(255, 255, 255, .3);
+}
+
+.jumbotron p {
+   color: #fff;
+   font-weight: bold;
+   text-shadow: 1px 1px 13px rgb(0, 0, 0);
+}
+
+hr {
+   width: 250px;
+   border-top: 2px solid #0077B5;
+}
+
+section {
+   min-height: 600px;
+}
+
+.Myprofil h2 {
+   margin-top: -10px;
+}
+
+
+
+
+/*CV*/
+.CV {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 50px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-align: center;
+}
+.CV:hover a {
+   background-color: #2F4F4F;
+   text-decoration: underline;
+}
+
+.pKiri, .pKanan {
+   opacity: 0;
+   transition: 1s;
+}
+
+.pKiri {
+   transform: translate(-100px, 0) scale(1.5);
+}
+
+.pKanan {
+   transform: translate(100px, 0) scale(1.5);
+}
+
+.Myprofil p {
+         text-align: justify; 
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+   opacity: 1;
+   transform: translate(0, 0) scale(1);
+}
+
+.portfolio {
+   background-color: rgba(222, 238, 245, 0.3);
+}
+
+.portfolio .thumbnail {
+   opacity: 0;
+   transform: translate(0, -20px);
+   transition: 1s;
+}
+
+.portfolio .thumbnail.muncul {
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.contact {
+   min-height: 600px;
+}
+
+.row .col-sm-4 .thumbnail:hover {
+   border: 1px solid #3b5999;
+}
+
+/* footer */
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: #2F4F4F;
+   padding: 30px
+}
+
+footer p {
+   color: #fff;
+   font-size: 1.1em;
+   letter-spacing: 1px;
+}
+
+footer p a {
+   font-weight: bold;
+   color: #eee;
+}
+
+footer p a:hover {
+   text-decoration: none;
+   color: rgba(222, 238, 245, 0.3);
+}
+
+footer p i {
+   color: salmon;
+}
+
+
+/* navbar */
+.navbar .navbar-brand {
+   color: #fff;
+}
+
+.navbar ul.nav li a {
+   color: #fff;
+}
+
+
+/* ---------------------------- */
+.navbarColor {
+   background-color: #3e72e2;
+   border: none;
+}
+
+.navbarColor .navbar-toggle {
+   border: none;
+   background-color: inherit;
+}
+
+.copyrightColor {
+   color: #fff;
+}
+
